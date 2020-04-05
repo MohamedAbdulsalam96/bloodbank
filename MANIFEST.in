@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include bloodbank *.css
+recursive-include bloodbank *.csv
+recursive-include bloodbank *.html
+recursive-include bloodbank *.ico
+recursive-include bloodbank *.js
+recursive-include bloodbank *.json
+recursive-include bloodbank *.md
+recursive-include bloodbank *.png
+recursive-include bloodbank *.py
+recursive-include bloodbank *.svg
+recursive-include bloodbank *.txt
+recursive-exclude bloodbank *.pyc
